@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume(Gery Malanay)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="toggle-dark-mode">Toggle Dark Mode</button>
+    <div class="resume">
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="Resume.jpg" alt="1x1P" style="width: 170px;px;height: 160px;px;">
+                <h1>Gery Malanay</h1>
+                <p>Information Technology</p>
+            </div>
+            <div class="summary">
+                <h2>Summary</h2>
+                <p>knowledgeable IT specialist with over six years of experience. easily adjusts to cutting-edge procedures and rapidly changing technologies. well-organized, efficient, and detail-oriented, with a wealth of knowledge in software development, system analysis, and IT infrastructure administration. specialized in system optimization, troubleshooting, and guaranteeing safe and expandable solutions for a range of sectors.</p>
+            </div>
+            <div class="contact-info">
+                <h2>Contact</h2>
+                <p>Email: <a href="mailto:gerymalanay@gmail.com">gerymalanay@gmail.com</a></p>
+                <p>Address: Fairview, Quezon City, Metro Manila</p>
+                <p>Phone: <a href="cpnum">09123456789</a></p>
+                <p>Facebook: <a href="fbpersonal">Personal Account</a></p>
+            </div>
+            <div class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Organizational skills</li>
+                    <li>Time management</li>
+                    <li>Adaptability</li>
+                </ul>
+            </div>
+            <div class="References">
+                <h2>References</h2>
+                <ul>
+                    <li><a href="refer">John Mike</a></li>
+                    <li><a href="refer">Angelo Tan</a></li>
+                    <li><a href="refer">Amos Flores</a></li>
+                </ul>
+            </div>
+        </aside>
+        <main class="content">
+            <section class="experience">
+                <h2>Experience</h2>
+                <div class="job">
+                    <h3>Web Development Intern</h3>
+                    <p><em>TechVision Solutions</em> - June 2025 to Sept. 2025, Quezon City</p>
+                    <ul>
+                        <li>Assisted in building responsive websites using HTML, CSS, and JavaScript.</li>
+                        <li>Collaborated with senior developers to optimize website performance and accessibility.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h3>Freelance Web Designer</h3>
+                    <p><em>Self-Employed</em> - Jan. 2023 to May 2025, Quezon City</p>
+                    <ul>
+                        <li>Designed and developed basic websites for small businesses using HTML and CSS.</li>
+                        <li>Maintained client websites, implementing updates and basic troubleshooting.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h3>IT Student Assistant</h3>
+                    <p><em>FEU Diliman IT Department</em> - Aug. 2022 to Dec. 2023, Quezon City</p>
+                    <ul>
+                        <li>Provided technical support to students and staff for basic software and coding issues.</li>
+                        <li>Assisted in organizing coding workshops for beginners.</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="education">
+                <h2>Education</h2>
+                <div class="degree">
+                    <h3>BSIT Web and Mobile Application</h3>
+                    <p><em>FEU DILIMAN</em> - Aug. 2022 to Sept. 2026, Quezon City</p>
+                    <p>Advance Web Design and Java</p>
+                </div>
+                <div class="degree">
+                    <h3>Basic Coding</h3>
+                    <p><em>Falcon School</em> - July 2020 to May 2022, Quezon City</p>
+                </div>
+                <div class="degree">
+                    <h3>Introduction to HTML</h3>
+                    <p><em>Falcon School</em> - Jul 2018 to Jun 2019, Quezon City</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script>
+        const toggleButton = document.getElementById('toggle-dark-mode');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>
